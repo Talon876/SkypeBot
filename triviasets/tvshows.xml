@@ -1,0 +1,175 @@
+<gameboard name="TV Shows" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TriviaBot.xsd">
+	<category name="Simpsons">
+		<trivia pointvalue = "15">
+			<question>What street do the Simpsons live on?</question>
+			<correct>evergreen terrace</correct>
+			<correct>evergreen terace</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>What is the name of Bart Simpson's evil twin?</question>
+			<correct>hugo</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>What is Mr. Burns' first name?</question>
+			<correct>montgomery</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>What is the name of Bart's friend who wears glasses?</question>
+			<correct>milhouse</correct>
+			<correct>millhouse</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>Who is the superintendant of Springfield Elementary?</question>
+			<correct>chalmers</correct>
+			<correct>superintendant chalmers</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>What fake name did Bart use to buy a credit card?</question>
+			<correct>santos l halper</correct>
+			<correct>santos el halper</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>Who became Mr. Burns' heir?</question>
+			<correct>bart</correct>
+			<correct>bart simpson</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>Who shot Mr Burns?</question>
+			<correct>maggie</correct>
+			<correct>maggy</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>What musical instrument does Otto play?</question>
+			<correct>guitar</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>Of what religion is Krusty the clown?</question>
+			<correct>jewish</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>When Lisa tried to do a story for "Kidz News", what was the crazy woman throwing at her?</question>
+			<correct>cats</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>What is Sideshow Bob's last name?</question>
+			<correct>terwilliger</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>To what animal did Lisa say, "You're so reticulated!"</question>
+			<correct>northern reticulated chipmunk</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>Who is Apu's brother?</question>
+			<correct>sanjay</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>What was Bart reading when his parents came home from their parent teacher meeting?</question>
+			<correct>bible</correct>
+			<correct>a bible</correct>
+			<correct>the bible</correct>
+		</trivia>
+	</category>
+	<category name="Big Bang Theory">
+		<trivia pointvalue = "15">
+			<question>What does Sheldon look for when finding the perfect seat in a theater?</question>
+			<correct>acoustic sweet spot</correct>
+			<correct>acoustic spot</correct>
+			<correct>sweet spot</correct>
+		</trivia>
+		<trivia pointvalue = "10">
+			<question>According to Leonard in a season two episode, what was Sheldon's 'kryptonite'?</question>
+			<correct>his mother</correct>
+			<correct>his mom</correct>
+			<correct>sheldon's mom</correct>
+			<correct>sheldon's mother</correct>
+		</trivia>
+		<trivia pointvalue = "10">
+			<question>In "The Gothowitz Deviation", Sheldon took it upon himself to weed out what he felt were Penny's more annoying or undesirable habits. What did Sheldon use in this episode to modify Penny's behavior?</question>
+			<correct>chocolate</correct>
+		</trivia>
+		<trivia pointvalue = "10">
+			<question>When Leonard needed help to fit in with Penny's friends in "The Cornhusker Vortex", he was surprised to find assistance from a most unlikely source. What sporting activity did Sheldon turn out to be an expert on in this episode?</question>
+			<correct>football</correct>
+			<correct>american football</correct>
+		</trivia>
+		<trivia pointvalue = "5">
+			<question>When Penny slipped in the shower and dislocated her shoulder, Sheldon was the only person around to help her get to the emergency room. Later, a drug-addled Penny made Sheldon sing her his customary song that was reserved for situations when he was sick. What is the name of the song?</question>
+			<correct>soft kitty</correct>
+		</trivia>
+		<trivia pointvalue = "20">
+			<question>After a robbery left Sheldon feeling vulnerable and frightened, he decided to leave Pasadena, and move to Bozeman, Montana. He bid farewell to Leonard, Penny, Howard and Raj in a video that he addressed to "three of [his] closest friends and one treasured acquaintance". Who did Sheldon regard as the "one treasured acquaintance"?</question>
+			<correct>howard</correct>
+		</trivia>
+		<trivia pointvalue = "20">
+			<question>When Stan Lee was scheduled to appear at the comic book store to sign autographs, all the guys were excited to meet the comic book legend in person. Sheldon, however, was unable to attend. Where did he have to be instead?</question>
+			<correct>court</correct>
+			<correct>the court</correct>
+			<correct>traffic court</correct>
+		</trivia>
+		<trivia pointvalue = "20">
+			<question>In "The Spaghetti Catalyst", Sheldon got Penny to cook dinner for him after he spotted a bottle of Mama Italia Marinara Spaghetti Sauce - the sauce his mother uses - in her shopping bag. What special ingredient did he ask Penny to add to the spaghetti sauce?</question>
+			<correct>hotdog</correct>
+			<correct>hotdogs</correct>
+			<correct>hot dogs</correct>
+			<correct>cut up hot dogs</correct>
+			<correct>sliced up hot dogs</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>In the season three finale, we saw Howard and Raj teaming up to blackmail Sheldon by hiding what item in his apartment?</question>
+			<correct>sock</correct>
+			<correct>old sock</correct>
+			<correct>dirty sock</correct>
+		</trivia>
+		<trivia pointvalue = "10">
+			<question>Who plays Leonard?</question>
+			<correct>johnny galecki</correct>
+			<correct>galecki</correct>
+		</trivia>
+		<trivia pointvalue = "5">
+			<question>Who plays Sheldon?</question>
+			<correct>jim parsons</correct>
+			<correct>parsons</correct>
+		</trivia>
+		<trivia pointvalue = "10">
+			<question>Penny claims to be an actress, but she's currently working as a waitress. Where does she work?</question>
+			<correct>the cheesecake factory</correct>
+			<correct>cheesecake factory</correct>
+		</trivia>
+		<trivia pointvalue = "20">
+			<question>In the title sequence, the song "The History of Everything" is played. Who performs it?</question>
+			<correct>barenaked ladies</correct>
+			<correct>the barenaked ladies</correct>
+			<correct>bare naked ladies</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>In the first season, which character got fired from his job?</question>
+			<correct>sheldon</correct>
+		</trivia>
+		<trivia pointvalue = "15">
+			<question>The guys enter a team in the Physics Bowl competition with the team name PMS. What did PMS stand for?</question>
+			<correct>perpetual motion squad</correct>
+		</trivia>
+		<trivia pointvalue ="25">
+			<question>What is the name of the female scientist who works at the same university as Sheldon, and continuously calls him stupid?</question>
+			<correct>leslie</correct>
+			<correct>leslie winkle</correct>
+		</trivia>
+		<trivia pointvalue ="20">
+			<question>When Penny returned from her trip to Nebraska, Sheldon was dismayed to learn that she might have been exposed to a terrible illness back home. What virulent disease did he fear he would contract from her?</question>
+			<correct>flu</correct>
+			<correct>the flu</correct>
+		</trivia>
+		<trivia pointvalue ="30">
+			<question>When Penny first described herself to Leonard and Sheldon in the pilot episode, she revealed one aspect of her belief system that Sheldon was quick to debunk. Which branch of pseudoscience did Penny subscribe to, but which Sheldon thought was all hokum?</question>
+			<correct>astrology</correct>
+		</trivia>
+		<trivia pointvalue ="15">
+			<question>In "The Hamburger Postulate", Sheldon was confronted with a necktie tied around the doorknob to Leonard's room, but he didn't know what it meant. To whom did he turn for help to interpret this semiotic conundrum?</question>
+			<correct>penny</correct>
+		</trivia>
+		<trivia pointvalue ="5">
+			<question>Out of the following: Leonard, Raj, Howard, and Sheldon, which of them does not posses a Doctoral degree?</question>
+			<correct>howard</correct>
+		</trivia>
+	</category>
+</gameboard>

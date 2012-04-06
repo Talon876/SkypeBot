@@ -13,6 +13,14 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	
+	<repositories>
+		<repository>
+			<id>com.theawesomenexus</id>
+			<name>The Awesome Nexus</name>
+			<url>https://raw.github.com/Talon876/mavenrepo/master/releases</url>
+		</repository>
+	</repositories>
 
 	<dependencies>
 		<dependency>

@@ -1,0 +1,16 @@
+<gameboard name="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="TriviaBot.xsd">
+	<category name="Default">
+		<trivia pointvalue="5">
+			<question>Default trivia started. To use other files, use !start [questionset].
+			For the full documentation on how to use the !start command, see: http://theawesomenexus.com:8181/skypebot
+			To leave this trivia session, reply with 'ok'.</question>
+			<correct>true</correct>
+			<correct>ok</correct>
+			<correct>exit</correct>
+			<correct>k</correct>
+			<correct>true</correct>
+			<correct>true</correct>
+		</trivia>
+	</category>
+</gameboard>

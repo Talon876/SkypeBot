@@ -1,0 +1,1 @@
+Place these xml files along with the xsd file next to the SkypeBot.jar file.
