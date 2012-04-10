@@ -2,6 +2,7 @@ package com.deflexicon.bot.modulehelpers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Stack;
 
 import com.deflexicon.bot.Logger;
@@ -11,6 +12,7 @@ public class TriviaCommand implements CommandListener
 	private ArrayList<CommandListener> commandListeners = new ArrayList<CommandListener>();
 	private static String[] recognizedCommands = { "start", "stop", "top", "help", "catlist" };
 	private String command = "";
+	private HashMap<String, Integer> map = new HashMap<String, Integer>();
 	private String[] arguments;
 
 	public TriviaCommand()
@@ -20,9 +22,14 @@ public class TriviaCommand implements CommandListener
 
 	public TriviaCommand(String command, String[] arguments)
 	{
-		String[] args = arguments.clone(); //just in case arguments gets changed elsewhere
+		String[] args = arguments.clone(); // just in case arguments gets
+											// changed elsewhere
 		this.command = command;
 		this.arguments = args;
+		for(int i = 0; i < map.size(); i++)
+		{
+			map.put(recognizedCommands[i], i);
+		}
 	}
 
 	public void addCommandListener(CommandListener cl)
@@ -47,25 +54,25 @@ public class TriviaCommand implements CommandListener
 
 	public void process()
 	{
-		switch (command)
+		switch (map.get(command))
 		{
-		case "start":
+		case 0: //start
 			commandStart();
 			break;
 
-		case "stop":
+		case 1: //stop
 			commandStop();
 			break;
 
-		case "top":
+		case 2: //top
 			commandTop();
 			break;
 
-		case "help":
+		case 3: //help
 			commandHelp();
 			break;
 
-		case "catlist":
+		case 4: //catlist
 			commandCatlist();
 			break;
 		}
