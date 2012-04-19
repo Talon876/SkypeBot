@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.deflexicon.bot.Logger;
+
 public class YoutubeDataExtractor
 {
 	private Pattern youtubeUrlPattern = Pattern.compile("http://\\w{0,3}.?youtube+\\.\\w{2,3}/watch\\?v=[\\w-]{11}");
@@ -27,7 +29,7 @@ public class YoutubeDataExtractor
 		dataUrl += videoId;
 		if (matcher.find() == false)
 		{
-			System.out.println("This doesn't appear to be a valid Youtube video link.");
+			Logger.log("This doesn't appear to be a valid Youtube video link.");
 		} else
 		{
 			scrapeData();
@@ -36,7 +38,7 @@ public class YoutubeDataExtractor
 
 	private void scrapeData()
 	{
-		System.out.println("\nAttempting to scrape with url: " + dataUrl);
+		Logger.log("\nAttempting to scrape with url: " + dataUrl);
 		try
 		{
 			URL videoUrl = new URL(url);
@@ -58,7 +60,7 @@ public class YoutubeDataExtractor
 		{
 			x.printStackTrace();
 		}
-		System.out.println("Scraped " + url + "\n");
+		Logger.log("Scraped " + url + "\n");
 
 	}
 
