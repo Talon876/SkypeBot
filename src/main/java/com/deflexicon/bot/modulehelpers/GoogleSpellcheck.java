@@ -63,9 +63,9 @@ public class GoogleSpellcheck
 
 		int length = correctPhrase.length();
 		int ed = GoogleSpellcheck.getLevenshteinDistance(phrase, correctPhrase);
-		System.out.println("ED: " + ed);
+		//System.out.println("ED: " + ed);
 		double ratio = (double) ed / (double) length;
-		System.out.println("ratio: " + ratio);
+		//System.out.println("ratio: " + ratio);
 
 		if (ratio <= 0.1d)
 		{
@@ -93,7 +93,7 @@ public class GoogleSpellcheck
 			phrase = GoogleSpellcheck.correct(phrase);
 			if (phrase.equalsIgnoreCase(correctPhrase))
 			{
-				System.out.println("Used google's correction: " + phrase);
+				//System.out.println("Used google's correction: " + phrase);
 				pass = true;
 			}
 		}
